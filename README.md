@@ -20,7 +20,7 @@ It will visually display status indicators from those feeds allowing you to know
 Once completed, this will ideally be published under Chrome Extensions in the Play store.
 
 Development Status
-==================
+------------------
 
 1.  Extension / Manifest created.
 2.  Icon created.
