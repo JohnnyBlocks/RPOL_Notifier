@@ -1,4 +1,4 @@
-RPOL_Notifier
+RPOL Notifier 
 =============
 
 Chrome Extension for RPOL Game Alerts, leveraging RPOL RSS feeds
