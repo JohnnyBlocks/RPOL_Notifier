@@ -1,31 +1,60 @@
 <!doctype html>
 <html>
   <head>
-    <title>Getting Started Extension's Popup</title>
+    <title>RPOL Notifier</title>
     <style>
-      body {
+    body {
         min-width: 357px;
         overflow-x: hidden;
-      }
+        font-family: verdana;
+        white-space:nowrap;
+    }
 
-      img {
-        margin: 5px;
-        border: 2px solid black;
-        vertical-align: middle;
-        width: 75px;
-        height: 75px;
-      }
+    .gamename {
+        padding-left: 15px;
+        cursor: pointer;
+        font-weight: bold;
+    }     
+
+    .On {
+        color: darkRed;
+        font-weight: bold;
+    }
+
+    .Off {
+        color: black;
+    }      
+
+    .gamestatus {
+        padding-left: 15px;
+        font-size: 80%;
+    }    
+    
+    .gametime {
+        padding-left: 15px;
+        font-size: 75%;
+        color: grey;
+        padding-bottom: 5px;
+    }
+    
+
+    .header {
+        color: #6E6E6E;
+        font-weight: bolder;
+        font-size: 150%;
+        padding-bottom: 5px;
+    }
+      
+
     </style>
-
-    <!--
-      - JavaScript and HTML must be in separate files: see our Content Security
-      - Policy documentation[1] for details and explanation.
-      -
-      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
-     -->
-    <script src="popup.js"></script>
+    <script src="GameList.js"></script>
   </head>
   <body>
+    <div id="container"></div>
+    <div style="color:red;font-weight:bold">
+        Change Times to Current Time Zone<br />
+        Add the Ignore into things
+    </div>
   </body>
 </html>
 

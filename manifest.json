@@ -5,10 +5,20 @@
     "description": "Notifies you of your RPOL RSS alerts",
     "version": "1.0",
 
+    "content_security_policy": "script-src 'self' https://google.com; object-src 'self'",
+    
+    
+    
     "permissions": [
         "storage",
-        "http://rpol.net/"
+        "http://rpol.net/",
+        "tabs"
+        
     ],
+    
+    "background": {
+        "scripts": ["daemon.js"]
+    },
     
     "options_page": "Options.html",
     
